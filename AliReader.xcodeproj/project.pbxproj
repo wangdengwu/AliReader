@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312661608B234C9FB5FA9A16 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C330121E9C458CB66EDDEE /* libPods.a */; };
 		3DB07B18191F38F9005FE071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB07B17191F38F9005FE071 /* Foundation.framework */; };
 		3DB07B1A191F38F9005FE071 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB07B19191F38F9005FE071 /* CoreGraphics.framework */; };
 		3DB07B1C191F38F9005FE071 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB07B1B191F38F9005FE071 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18C330121E9C458CB66EDDEE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C21467FFDD4503BF10BB67 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		3DB07B14191F38F9005FE071 /* AliReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB07B17191F38F9005FE071 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3DB07B19191F38F9005FE071 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +66,7 @@
 				3DB07B1A191F38F9005FE071 /* CoreGraphics.framework in Frameworks */,
 				3DB07B1C191F38F9005FE071 /* UIKit.framework in Frameworks */,
 				3DB07B18191F38F9005FE071 /* Foundation.framework in Frameworks */,
+				312661608B234C9FB5FA9A16 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D823FD9191F3C460070EED2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DB07B2C191F38F9005FE071 /* CubeViewController.h */,
+				3DB07B2D191F38F9005FE071 /* CubeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		3DB07B0B191F38F9005FE071 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +99,7 @@
 				3DB07B3C191F38F9005FE071 /* AliReaderTests */,
 				3DB07B16191F38F9005FE071 /* Frameworks */,
 				3DB07B15191F38F9005FE071 /* Products */,
+				36C21467FFDD4503BF10BB67 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,7 @@
 				3DB07B19191F38F9005FE071 /* CoreGraphics.framework */,
 				3DB07B1B191F38F9005FE071 /* UIKit.framework */,
 				3DB07B36191F38F9005FE071 /* XCTest.framework */,
+				18C330121E9C458CB66EDDEE /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +127,10 @@
 		3DB07B1D191F38F9005FE071 /* AliReader */ = {
 			isa = PBXGroup;
 			children = (
+				3D823FD9191F3C460070EED2 /* Controllers */,
 				3DB07B26191F38F9005FE071 /* CubeAppDelegate.h */,
 				3DB07B27191F38F9005FE071 /* CubeAppDelegate.m */,
 				3DB07B29191F38F9005FE071 /* Main.storyboard */,
-				3DB07B2C191F38F9005FE071 /* CubeViewController.h */,
-				3DB07B2D191F38F9005FE071 /* CubeViewController.m */,
 				3DB07B2F191F38F9005FE071 /* Images.xcassets */,
 				3DB07B1E191F38F9005FE071 /* Supporting Files */,
 			);
@@ -159,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DB07B46191F38F9005FE071 /* Build configuration list for PBXNativeTarget "AliReader" */;
 			buildPhases = (
+				5B65384C20A84F8C9E27E0B0 /* Check Pods Manifest.lock */,
 				3DB07B10191F38F9005FE071 /* Sources */,
 				3DB07B11191F38F9005FE071 /* Frameworks */,
 				3DB07B12191F38F9005FE071 /* Resources */,
+				4FE7B26B4F2740DE87A338DC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +260,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FE7B26B4F2740DE87A338DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B65384C20A84F8C9E27E0B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DB07B10191F38F9005FE071 /* Sources */ = {
@@ -374,6 +423,7 @@
 		};
 		3DB07B47191F38F9005FE071 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C21467FFDD4503BF10BB67 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +437,7 @@
 		};
 		3DB07B48191F38F9005FE071 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C21467FFDD4503BF10BB67 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +508,7 @@
 				3DB07B48191F38F9005FE071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DB07B49191F38F9005FE071 /* Build configuration list for PBXNativeTarget "AliReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +517,7 @@
 				3DB07B4B191F38F9005FE071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
