@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB07B18191F38F9005FE071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB07B17191F38F9005FE071 /* Foundation.framework */; };
+		3DB07B1A191F38F9005FE071 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB07B19191F38F9005FE071 /* CoreGraphics.framework */; };
+		3DB07B1C191F38F9005FE071 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB07B1B191F38F9005FE071 /* UIKit.framework */; };
+		3DB07B22191F38F9005FE071 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DB07B20191F38F9005FE071 /* InfoPlist.strings */; };
+		3DB07B24191F38F9005FE071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB07B23191F38F9005FE071 /* main.m */; };
+		3DB07B28191F38F9005FE071 /* CubeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB07B27191F38F9005FE071 /* CubeAppDelegate.m */; };
+		3DB07B2B191F38F9005FE071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB07B29191F38F9005FE071 /* Main.storyboard */; };
+		3DB07B2E191F38F9005FE071 /* CubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB07B2D191F38F9005FE071 /* CubeViewController.m */; };
+		3DB07B30191F38F9005FE071 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB07B2F191F38F9005FE071 /* Images.xcassets */; };
+		3DB07B37191F38F9005FE071 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB07B36191F38F9005FE071 /* XCTest.framework */; };
+		3DB07B38191F38F9005FE071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB07B17191F38F9005FE071 /* Foundation.framework */; };
+		3DB07B39191F38F9005FE071 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB07B1B191F38F9005FE071 /* UIKit.framework */; };
+		3DB07B41191F38F9005FE071 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DB07B3F191F38F9005FE071 /* InfoPlist.strings */; };
+		3DB07B43191F38F9005FE071 /* AliReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB07B42191F38F9005FE071 /* AliReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DB07B3A191F38F9005FE071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB07B0C191F38F9005FE071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB07B13191F38F9005FE071;
+			remoteInfo = AliReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DB07B14191F38F9005FE071 /* AliReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB07B17191F38F9005FE071 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DB07B19191F38F9005FE071 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DB07B1B191F38F9005FE071 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DB07B1F191F38F9005FE071 /* AliReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AliReader-Info.plist"; sourceTree = "<group>"; };
+		3DB07B21191F38F9005FE071 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DB07B23191F38F9005FE071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DB07B25191F38F9005FE071 /* AliReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AliReader-Prefix.pch"; sourceTree = "<group>"; };
+		3DB07B26191F38F9005FE071 /* CubeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeAppDelegate.h; sourceTree = "<group>"; };
+		3DB07B27191F38F9005FE071 /* CubeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeAppDelegate.m; sourceTree = "<group>"; };
+		3DB07B2A191F38F9005FE071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DB07B2C191F38F9005FE071 /* CubeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeViewController.h; sourceTree = "<group>"; };
+		3DB07B2D191F38F9005FE071 /* CubeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeViewController.m; sourceTree = "<group>"; };
+		3DB07B2F191F38F9005FE071 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DB07B35191F38F9005FE071 /* AliReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB07B36191F38F9005FE071 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3DB07B3E191F38F9005FE071 /* AliReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AliReaderTests-Info.plist"; sourceTree = "<group>"; };
+		3DB07B40191F38F9005FE071 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DB07B42191F38F9005FE071 /* AliReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB07B11191F38F9005FE071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB07B1A191F38F9005FE071 /* CoreGraphics.framework in Frameworks */,
+				3DB07B1C191F38F9005FE071 /* UIKit.framework in Frameworks */,
+				3DB07B18191F38F9005FE071 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB07B32191F38F9005FE071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB07B37191F38F9005FE071 /* XCTest.framework in Frameworks */,
+				3DB07B39191F38F9005FE071 /* UIKit.framework in Frameworks */,
+				3DB07B38191F38F9005FE071 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DB07B0B191F38F9005FE071 = {
+			isa = PBXGroup;
+			children = (
+				3DB07B1D191F38F9005FE071 /* AliReader */,
+				3DB07B3C191F38F9005FE071 /* AliReaderTests */,
+				3DB07B16191F38F9005FE071 /* Frameworks */,
+				3DB07B15191F38F9005FE071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB07B15191F38F9005FE071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB07B14191F38F9005FE071 /* AliReader.app */,
+				3DB07B35191F38F9005FE071 /* AliReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB07B16191F38F9005FE071 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DB07B17191F38F9005FE071 /* Foundation.framework */,
+				3DB07B19191F38F9005FE071 /* CoreGraphics.framework */,
+				3DB07B1B191F38F9005FE071 /* UIKit.framework */,
+				3DB07B36191F38F9005FE071 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DB07B1D191F38F9005FE071 /* AliReader */ = {
+			isa = PBXGroup;
+			children = (
+				3DB07B26191F38F9005FE071 /* CubeAppDelegate.h */,
+				3DB07B27191F38F9005FE071 /* CubeAppDelegate.m */,
+				3DB07B29191F38F9005FE071 /* Main.storyboard */,
+				3DB07B2C191F38F9005FE071 /* CubeViewController.h */,
+				3DB07B2D191F38F9005FE071 /* CubeViewController.m */,
+				3DB07B2F191F38F9005FE071 /* Images.xcassets */,
+				3DB07B1E191F38F9005FE071 /* Supporting Files */,
+			);
+			path = AliReader;
+			sourceTree = "<group>";
+		};
+		3DB07B1E191F38F9005FE071 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DB07B1F191F38F9005FE071 /* AliReader-Info.plist */,
+				3DB07B20191F38F9005FE071 /* InfoPlist.strings */,
+				3DB07B23191F38F9005FE071 /* main.m */,
+				3DB07B25191F38F9005FE071 /* AliReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DB07B3C191F38F9005FE071 /* AliReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB07B42191F38F9005FE071 /* AliReaderTests.m */,
+				3DB07B3D191F38F9005FE071 /* Supporting Files */,
+			);
+			path = AliReaderTests;
+			sourceTree = "<group>";
+		};
+		3DB07B3D191F38F9005FE071 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DB07B3E191F38F9005FE071 /* AliReaderTests-Info.plist */,
+				3DB07B3F191F38F9005FE071 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB07B13191F38F9005FE071 /* AliReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB07B46191F38F9005FE071 /* Build configuration list for PBXNativeTarget "AliReader" */;
+			buildPhases = (
+				3DB07B10191F38F9005FE071 /* Sources */,
+				3DB07B11191F38F9005FE071 /* Frameworks */,
+				3DB07B12191F38F9005FE071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliReader;
+			productName = AliReader;
+			productReference = 3DB07B14191F38F9005FE071 /* AliReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DB07B34191F38F9005FE071 /* AliReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB07B49191F38F9005FE071 /* Build configuration list for PBXNativeTarget "AliReaderTests" */;
+			buildPhases = (
+				3DB07B31191F38F9005FE071 /* Sources */,
+				3DB07B32191F38F9005FE071 /* Frameworks */,
+				3DB07B33191F38F9005FE071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB07B3B191F38F9005FE071 /* PBXTargetDependency */,
+			);
+			name = AliReaderTests;
+			productName = AliReaderTests;
+			productReference = 3DB07B35191F38F9005FE071 /* AliReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB07B0C191F38F9005FE071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Cube;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Cube;
+				TargetAttributes = {
+					3DB07B34191F38F9005FE071 = {
+						TestTargetID = 3DB07B13191F38F9005FE071;
+					};
+				};
+			};
+			buildConfigurationList = 3DB07B0F191F38F9005FE071 /* Build configuration list for PBXProject "AliReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB07B0B191F38F9005FE071;
+			productRefGroup = 3DB07B15191F38F9005FE071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB07B13191F38F9005FE071 /* AliReader */,
+				3DB07B34191F38F9005FE071 /* AliReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB07B12191F38F9005FE071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB07B30191F38F9005FE071 /* Images.xcassets in Resources */,
+				3DB07B22191F38F9005FE071 /* InfoPlist.strings in Resources */,
+				3DB07B2B191F38F9005FE071 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB07B33191F38F9005FE071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB07B41191F38F9005FE071 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB07B10191F38F9005FE071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB07B24191F38F9005FE071 /* main.m in Sources */,
+				3DB07B2E191F38F9005FE071 /* CubeViewController.m in Sources */,
+				3DB07B28191F38F9005FE071 /* CubeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB07B31191F38F9005FE071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB07B43191F38F9005FE071 /* AliReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DB07B3B191F38F9005FE071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB07B13191F38F9005FE071 /* AliReader */;
+			targetProxy = 3DB07B3A191F38F9005FE071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DB07B20191F38F9005FE071 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB07B21191F38F9005FE071 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DB07B29191F38F9005FE071 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB07B2A191F38F9005FE071 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DB07B3F191F38F9005FE071 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB07B40191F38F9005FE071 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB07B44191F38F9005FE071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DB07B45191F38F9005FE071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB07B47191F38F9005FE071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AliReader/AliReader-Prefix.pch";
+				INFOPLIST_FILE = "AliReader/AliReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DB07B48191F38F9005FE071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AliReader/AliReader-Prefix.pch";
+				INFOPLIST_FILE = "AliReader/AliReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3DB07B4A191F38F9005FE071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AliReader.app/AliReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AliReader/AliReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AliReaderTests/AliReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3DB07B4B191F38F9005FE071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AliReader.app/AliReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AliReader/AliReader-Prefix.pch";
+				INFOPLIST_FILE = "AliReaderTests/AliReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB07B0F191F38F9005FE071 /* Build configuration list for PBXProject "AliReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB07B44191F38F9005FE071 /* Debug */,
+				3DB07B45191F38F9005FE071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB07B46191F38F9005FE071 /* Build configuration list for PBXNativeTarget "AliReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB07B47191F38F9005FE071 /* Debug */,
+				3DB07B48191F38F9005FE071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DB07B49191F38F9005FE071 /* Build configuration list for PBXNativeTarget "AliReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB07B4A191F38F9005FE071 /* Debug */,
+				3DB07B4B191F38F9005FE071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB07B0C191F38F9005FE071 /* Project object */;
+}
